@@ -1,4 +1,3 @@
-
 # TP0 PREPARATION - Création compte gitlab.com et configuration Git en local
 
 > **Objectifs du TP**
@@ -74,7 +73,7 @@ https://docs.gitlab.com/ee/ssh/ (sur Windows vous pouvez utiliser PuTTY)
 Depuis l'interface gitlab.com, cliquez alors sur le bouton de votre profil en haut à droite, puis cliquez sur `Settings`.
 
 - la clé privée, que vous ne devez jamais sortir de votre machine se trouve dans `~/.ssh/id_ed25519`
-- la clé publique, que vous ne pouvez utiliser sans soucis se trouve dans `~/.ssh/id_ed25519.pub`
+- la clé publique, que vous pouvez utiliser sans soucis se trouve dans `~/.ssh/id_ed25519.pub`
 
 Peu importe si le format de votre clé difére un peu, que ce soit "id_rsa" ou autre.
 
