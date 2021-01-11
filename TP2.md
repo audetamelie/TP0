@@ -190,7 +190,7 @@ $ git push origin add_integration_tests
 Les tests doivent passer sans erreur.
 
 Votre pipeline doit maintenant ressembler à celui-ci :
-![](https://ibb.co/M7hRR3m)
+[<img src="https://i.ibb.co/kXyhhWt/Screenshot-2021-01-11-at-23-36-53.png">](Exemple Pipeline)
 
 ## Merge de votre changement
 
