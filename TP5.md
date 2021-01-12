@@ -51,8 +51,8 @@ Launch Unit Tests:
   before_script:
     - apk add --no-cache gcc musl-dev
   script:
-  - pip install -r requirements.txt
-  - python -m pytest --junit-xml=pytest-report.xml --cov=./
+    - pip install -r requirements.txt
+    - python -m pytest --junit-xml=pytest-report.xml --cov=./
 ```
 
 Afin d'ajouter les dépendances, modifier votre `Dockerfile` :
