@@ -138,7 +138,7 @@ $ git push origin v1.0
 >
 > Quel est le comportement attendu au niveau du pipeline ?
 
-Une fois celui-ci terminé, allez dans la registry de votre projet et identifiez l'image que vous venez de "labelliser". Tadaaa !
+Une fois celui-ci terminé, allez dans la registry de votre projet `Packages & Registries` puis `Container Registry` et trouvez l'image que vous venez de "labelliser". Tadaaa !
 
 # Bonus
 
