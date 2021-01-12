@@ -1,7 +1,7 @@
-# TP #4 - Debug d'un pipeline Gitlab-CI
+# TP #4 - Debug d'une pipeline Gitlab-CI
 
 > **Objectifs du TP**
-> * Découvrir comment débugguer un pipeline pour réduire la boucle de feedback
+> * Découvrir comment débugguer une pipeline pour réduire la boucle de feedback
 > * Détecter facilement les erreurs de syntaxe avec le Linter intégré dans Gitlab
 
 Vous avez probablement déjà constaté qu'il est assez difficile d'écrire un nouveau job du premier coup sans erreur.
@@ -13,7 +13,7 @@ Plusieurs solutions existent, nous vous en proposons 2 ici:
 Toutes les instances de Gitlab (Gitlab.com ou votre Gitlab instancié) proposent un outil pour vérifier la syntaxe de vos fichiers `.gitlab-ci.yml`
 
 Pour trouver l'outil de vérification de syntaxe Gitlab-CI:
-- aller sur un projet qui contient un pipeline
+- aller sur un projet qui contient une pipeline
 - cliquer sur le menu gauche "CI/CD" puis sur "Pipelines"
 - le bouton CI-Lint permet d'afficher le Linter
 
@@ -43,7 +43,7 @@ Pylint:
 
 > **Tips**: il va vous falloir adapter au moins 3 lignes
 
-# Reproduction d'un pipeline en local
+# Reproduction d'une pipeline en local
 
 Comme présenté avec les slides, les runners gitlab peuvent être de plusieurs types (docker, local, ...). Nous allons installer ici directement
 le binaire `gitlab-runner` sur l'environnement local afin de pouvoir l'utiliser pour tester notre pipeline.
