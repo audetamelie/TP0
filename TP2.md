@@ -82,7 +82,7 @@ Créez la Merge Request et attendez l'exécution du pipeline.
 Vous pouvez maintenant tester le démarrage de l'application en démarrant un container utilisant votre image :
 
 ```
-$ docker run --rm -it -d -p 8000:8000 registry.gitlab.com/<votre_login_gitlab>/sample-app:latest
+$ docker container run --rm -it -d -p 8000:8000 registry.gitlab.com/<votre_login_gitlab>/sample-app:latest
 ```
 
 Vous pouvez maintenant tester l'application en envoyant une requête à l'application :
