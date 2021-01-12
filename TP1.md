@@ -253,7 +253,7 @@ Vous devriez obtenir l'output suivante :
 ```
 ================================================================================= test session starts =================================================================================
 platform darwin -- Python 3.7.4, pytest-5.2.4, py-1.8.0, pluggy-0.13.0
-rootdir: [...]/ci-app
+rootdir: [...]/sample-app
 collected 1 item
 
 tests/test_sample1.py .                                                                                                                                                         [100%]
