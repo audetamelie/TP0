@@ -109,7 +109,7 @@ GLOBAL OPTIONS:
    --version, -v                print the version
 ```
 
-Créez le fichier .gitlab-ci.yml suivant quelque part dans un nouveau dossier hors sample-app comme nous avons vu dernièrement : 
+Créez un nouveau dossier **autre part** que dans sample-app, une fois dedans utilisez la commande suivnte `git init && git add . && git commit -m "Initial commit`. Vous pouvez maintenant créer le fichier .gitlab-ci.yml suivant comme nous avons vu dernièrement : 
 
 ```yaml
 variables:
@@ -132,7 +132,8 @@ Pylint:
     - pylint app.py
 ```
 
-Exécutez maintenant le pipeline en local:
+Exécutez maintenant le pipeline en local: 
+où (exec docker fait référence à l'executor docker que nous avons vu en cours et PyCodeStyle étant le job à tester, cette valeur peut bien évidemment changer selon le test que vous souhaitez réaliser)
 
 ```bash
 gitlab-runner exec docker PyCodeStyle
