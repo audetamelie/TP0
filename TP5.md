@@ -1,4 +1,4 @@
-# TP #6 - Labels et Coverage
+# TP #5 - Labels et Coverage
 
 > **Objectifs du TP**
 > * Afficher les labels build et coverage
