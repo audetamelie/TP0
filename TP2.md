@@ -85,7 +85,7 @@ Vous pouvez maintenant tester le démarrage de l'application en démarrant un co
 $ docker container run --rm -it -d -p 8000:8000 registry.gitlab.com/<votre_login_gitlab>/sample-app:latest
 ```
 
-Vous pouvez maintenant tester l'application en envoyant une requête à l'application :
+Il est possible que la commande précédente n'ai pas fonctionné si vous avez des majuscules dans votre pseudo gitlab "must be lowercase". Si c'est le cas passez directement à la partie suivante. Sinon, vous pouvez maintenant tester l'application en envoyant une requête à l'application :
 
 ```
 $ curl 127.0.0.1:8000
