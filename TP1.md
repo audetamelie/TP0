@@ -205,7 +205,7 @@ Static Code Analysis Tests:
 
 **Note :** SAST est l'accronyme signifiant Static Application Security Testing (SAST).
 
-Ajoutez vos modifications dans un commit et poussez les sur votre branche :
+Ajoutez vos modifications (en utilisant la version `1.3.0`) dans un commit et poussez les sur votre branche :
 
 ```bash
 $ git add .
