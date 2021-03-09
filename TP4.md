@@ -28,7 +28,7 @@ stages:
 
 PyCodeStyle:
   image: $PYTHON3_IMAGE
-  stage: syntax
+  stage: syntaxe
   script:
     - pip install pycodestyle
     - pycodestyle app.py
@@ -120,7 +120,7 @@ stages:
 
 PyCodeStyle:
   image: $PYTHON3_IMAGE
-  stage: syntaxe
+  stage: syntax
   script:
     - pip install pycodestyle
     - pycodestyle app.py
