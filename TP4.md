@@ -28,7 +28,7 @@ stages:
 
 PyCodeStyle:
   image: $PYTHON3_IMAGE
-  stage: syntaxe
+  stage: syntax
   script:
     - pip install pycodestyle
     - pycodestyle app.py
