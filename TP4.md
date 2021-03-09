@@ -52,7 +52,7 @@ Exécutez la procédure suivante pour l'installer sur Ubuntu et vous trouverez i
 
 ```bash
 $ curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh | sudo bash
-$ sudo apt-get install gitlab-runner=12.6.0
+$ sudo apt-get install gitlab-runner
 ```
 
 Testez la bonne installation du binaire avec la commande suivante:
@@ -65,7 +65,7 @@ Vous devriez avoir un résultat similaire à celui-ci:
 
 ```
 $ gitlab-runner
-Runtime platform                                    arch=amd64 os=linux pid=23738 revision=ac8e767a version=12.6.0
+Runtime platform                                    arch=amd64 os=linux pid=23738 revision=ac8e767a version=X.X.X
 NAME:
    gitlab-runner - a GitLab Runner
 
@@ -142,10 +142,10 @@ gitlab-runner exec docker Pylint
 Vous devriez avoir un résultat similaire à celui-ci :
 ```bash
 ubuntu@samuelantunes:~/test$ gitlab-runner exec docker Pylint
-Runtime platform                                    arch=amd64 os=linux pid=22294 revision=ac8e767a version=12.6.0
+Runtime platform                                    arch=amd64 os=linux pid=22294 revision=ac8e767a version=X.X.X
 WARNING: You most probably have uncommitted changes.
 WARNING: These changes will not be tested.
-Running with gitlab-runner 12.6.0 (ac8e767a)
+Running with gitlab-runner X.X.X (ac8e767a)
 Using Docker executor with image python:alpine ...
 Pulling docker image python:alpine ...
 Using docker image sha256:f7756628c1ee047c3b9246fe4eea25880386c26ed46c5bc5af11fddc90e91771 for python:alpine ...
