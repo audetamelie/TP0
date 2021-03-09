@@ -133,15 +133,15 @@ Pylint:
 ```
 
 Exécutez maintenant le pipeline en local: 
-où (exec docker fait référence à l'executor docker que nous avons vu en cours et PyCodeStyle étant le job à tester, cette valeur peut bien évidemment changer selon le test que vous souhaitez réaliser)
+où (exec docker fait référence à l'executor docker que nous avons vu en cours et Pylint étant le job à tester, cette valeur peut bien évidemment changer selon le test que vous souhaitez réaliser)
 
 ```bash
-gitlab-runner exec docker PyCodeStyle
+gitlab-runner exec docker Pylint
 ```
 
 Vous devriez avoir un résultat similaire à celui-ci :
 ```bash
-ubuntu@samuelantunes:~/test$ gitlab-runner exec docker PyCodeStyle
+ubuntu@samuelantunes:~/test$ gitlab-runner exec docker Pylint
 Runtime platform                                    arch=amd64 os=linux pid=22294 revision=ac8e767a version=12.6.0
 WARNING: You most probably have uncommitted changes.
 WARNING: These changes will not be tested.
@@ -174,7 +174,7 @@ A notre grand regret, nous constatons ici que le job n'est pas correct. Il sembl
 
 Après correction, vous devriez avoir un résultat similaire à celui-ci:
 ```bash
-ubuntu@samuelantunes:~/test$ gitlab-runner exec docker PyCodeStyle
+ubuntu@samuelantunes:~/test$ gitlab-runner exec docker Pylint
 Runtime platform                                    arch=amd64 os=linux pid=22294 revision=ac8e767a version=12.6.0
 WARNING: You most probably have uncommitted changes.
 WARNING: These changes will not be tested.
