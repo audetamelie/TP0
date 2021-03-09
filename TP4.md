@@ -109,7 +109,7 @@ GLOBAL OPTIONS:
    --version, -v                print the version
 ```
 
-Créez un nouveau dossier **autre part** que dans sample-app, une fois dedans utilisez la commande suivnte `git init && git add . && git commit -m "Initial commit"`. Vous pouvez maintenant créer le fichier .gitlab-ci.yml suivant comme nous avons vu dernièrement : 
+Créez un nouveau dossier **autre part** que dans sample-app, une fois dedans ajoutez un fichier `app.py` avec comme contenu le même que celui de sample-app. Plus qu'à utiliser la commande suivante `git init && git add . && git commit -m "Initial commit"`. Vous pouvez maintenant créer le fichier .gitlab-ci.yml suivant comme nous avons vu dernièrement : 
 
 ```yaml
 variables:
